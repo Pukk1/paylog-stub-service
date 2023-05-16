@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+    group-id: main
+    topic:
+      name: paylog
+
+minio:
+  url: http://localhost:9000
+  bucket:
+    name: paylogbucket
+  access:
+    key: AKIAIOSFODNN7EXAMPLE
+    secret: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
